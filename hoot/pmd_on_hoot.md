@@ -285,6 +285,27 @@ XMLファイルの登録
 
 ## 応用
 
-### WAVEファイルへの出力
+### WAVEファイル生成
 
-### 効果音の再生
+* システム > WAVE出力 により、 \<hootインストール先>\outs に .wav ファイルが出力される。
+
+### SSG効果音の再生
+
+hoot用ドライバ PMD_98.COM の README.TXT に記載のとおりだが、
+SSG効果音については、\<title> の code に指定する値は、
+
+* 上位8bit: \<rom type="file"> の offset の値で、効果音ファイルを指定。
+* 下位8bit: 効果音番号 + 0x80
+
+上位8bitについて
+
+* 効果音ファイルを指定できるため、事前に PESET.COM で効果音ファイルをPMD内にロードする必要はない。
+* PESET.COM 利用時は、codeの上位8bitは、\<rom type="file"> の offset で使っていない任意の値(0以外)を設定する。
+
+多数の \<title> を並べるのが面倒な場合は、代わりに \<range> が利用できる。
+
+```xml
+<range min="0x0880" max="0x089c">SSGEFFEC.SEF : %2X</range>
+```
+
+* min から max の値それぞれについて、それを code に指定した title が生成される 
