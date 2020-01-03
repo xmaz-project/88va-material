@@ -123,7 +123,7 @@ hootへ楽曲を登録するには、次の2つのファイルの作成が必要
 * 市販・同人ソフトであれば、そのディスクから持ってくるか
 * 本家サイトから PMD98 Ver 4.8o をダウンロード。  
     * PMD.COM(PC-9801+OPN用)以外は、自己解凍差分PMD48O.COMの実行により得られるが、
-      64bit Windowsでは.comの実行はサポートされないため、実機やエミュレータでの実行が必要。
+      64bit Windowsでは.comの実行はサポートされないため、別途ツールが必要。「[64 bit Windows での .COM の実行](#exec-com-on-win-64)」を参照。
 
 ### PMD向けの"hoot用ドライバ"の入手
 
@@ -325,3 +325,22 @@ SSG効果音については、\<title> の code に指定する値は、
 ```
 
 * min から max の値それぞれについて、それを code に指定した title が生成される 
+
+## 備考
+
+<a id="exec-com-on-win-64"></a>
+### 64 bit Windows での .COM の実行
+
+武田氏の「MS-DOS Player for Win32-x64」(msdos.exe) を使うと、64 bit Windows で .COM を実行できる。
+
+* [http://takeda-toshiya.my.coocan.jp/msdos/](http://takeda-toshiya.my.coocan.jp/msdos/)
+
+たとえば、PMD の自己解凍差分 PMD48O.COM を実行するには、上記 msdos.exe にパスを通した上で、
+
+```text
+cd <PMDのLZHを展開したディレクトリ>
+msdos pmd48o
+```
+
+なお、「PMD.COMが違う」などと表示される場合は、PMD.COM のタイムスタンプがオリジナルから変わってしまっている可能性がある。LZH展開に使うツールには、タイムスタンプも復元するものを使うこと。
+
