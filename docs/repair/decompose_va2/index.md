@@ -4,15 +4,15 @@
 
 - 1-1. 左右側面各2箇所のネジを外す。
 
-    <img src="1_1.png" width="300">
+    <img src="1_1.png" height="260">
 
 - 1-2. 背面上部2箇所のネジを外す。
 
-    <img src="1_2.png" width="400">
+    <img src="1_2.png" height="260">
 
 - 1-3. カバーをAの方向にスライド（背面方向斜め上）。左右両側面とも Bの内側にネジCがあり、カバーにひっかかり抜けにくいが細かくカバーを動かして引き抜く。（★求む、うまいコツ）
 
-    <img src="1_3a.png" width="300"> <img src="1_3b.png" width="200">
+    <img src="1_3a.png" height="260"> <img src="1_3b.png" height="260">
 
 ## 2. 背面パネルの取り外し
 
@@ -20,17 +20,17 @@
 - 2-2. オーディオアンプボード（背面パネルに取り付けられている、音声入出力端子の付いた基板）に接続されているフラットケーブル4本をコネクタ A B C D からすべて外す。
   - すべてコネクタ形状が異なるため、組み立て時に接続先を誤る心配はないが、外す前に印をつけておくと安心。
 
-    <img src="2_2a.png" width="400"> <img src="2_2b.png" width="300">
+    <img src="2_2a.png" height="260"> <img src="2_2b.png" height="260">
 
 - 2-3. 背面パネルのネジ4箇所を外す。
   - 音声入力の右のネジと、ディスプレイの15K/24K切り替えスイッチの右のネジは外さない。
   - 拡張スロットカバーは外さなくてよい。
 
-    <img src="2_3.png" width="400">
+    <img src="2_3.png" height="260">
   
 - 2-4. 背面パネルが手前（背面方向）に外れる。  
 
-  <img src="2_4.png" width="400">
+  <img src="2_4.png" height="260">
 
 ## 3. 拡張スロットボックスの取り外し
 
@@ -40,52 +40,52 @@
   - とは言え、ある程度の固さがあるため、VA正面向かって右と左を交互に少しずつ引き上げるしかない。一方を持ち上げるときに勢いあまると斜めにボックスが基板から引き抜かれピンが曲がってしまう。毎回神経を使うところ。
   - ★コツ求む。
 
-    <img src="3_1.png" width="400">
+    <img src="3_1.png" height="260">
   
 ## 4. 電源ボックスの取り外し
 
 - 4-1. FDD 2 台から電源ケーブルを取り外す。
 
-    <img src="4_1.png" width="300">
+    <img src="4_1.png" height="260">
 
 - 4-2. メインボードから電源ケーブルを取り外す。(写真は取り外し後)
 
-    <img src="4_2a.png" width="300">
-    <img src="4_2b.png" width="300">
+    <img src="4_2a.png" height="260">
+    <img src="4_2b.png" height="260">
 
 - 4-3. フラットケーブルを止めている粘着テープをはがす。
 
-    <img src="4_3.png" width="300">
+    <img src="4_3.png" height="260">
 
 - 4-4. 右側面のネジ2本を外す。
 
-    <img src="4_4.png" width="300">
+    <img src="4_4.png" height="260">
 
 - 4-5. 電源ボックスを背面方向に引き出して外す。
 
 外した電源ボックス。
 
-  <img src="4_6.png" width="300">
+  <img src="4_6.png" height="260">
 
 ## 5. テキスト&サウンドボードの取り外し
 
 - 5-1. ボードとFDDシャーシを固定している金具のネジを外し、金具を前面方向(A)にスライドして取り外す。
 
-  <img src="5_1.png" width="300">
+  <img src="5_1.png" height="260">
 
 - 5-2. ボードを引き上げてメインボードから外す。
 
 テキスト&サウンドボード
 
-  <img src="5_3.png" width="300">
+  <img src="5_3.png" height="260">
 
 金具の裏面
 
-  <img src="5_4.png" width="200">
+  <img src="5_4.png" height="260">
 
 取り外し後の状況
 
-  <img src="5_5.png" width="300">
+  <img src="5_5.png" height="260">
 
 ## 6. FDDの取り外し
 
@@ -93,18 +93,18 @@
 
 - 6-1. 右側面、左側面、各4本のネジを外す。(写真では元々ネジが何本か欠落している。)
 
-  <img src="6_1a.png" width="300">
-  <img src="6_1b.png" width="300">
+  <img src="6_1a.png" height="260">
+  <img src="6_1b.png" height="260">
 
 - 6-2. ケーブルを2本外す。
 
-  <img src="6_2.png" width="300">
+  <img src="6_2.png" height="260">
 
 - 6-3. FDDをフロントパネル方向に引き出す。
 
 取り外し後の状況
 
-  <img src="6_3.png" width="300">
+  <img src="6_3.png" height="260">
 
 ## 7. フロントパネルの取り外し
 
@@ -115,7 +115,6 @@
   - B: CN6 SPEAKER
 
   <img src="7_1a.png" height="260">
-
   <img src="7_1b.png" height="260">
 
 - 7-2. 左の金具を止めているネジを外して、金具も外す。右も同様。
@@ -125,9 +124,7 @@
 - 7-3. フロントパネル裏のネジ4箇所 A, B, C, Dを外す。
 
   <img src="7_3a.png" height="260">
-
   <img src="7_3b.png" height="260">
-
   <img src="7_3c.png" height="260">
 
 取り外したフロントパネル。

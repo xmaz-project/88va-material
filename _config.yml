@@ -1,3 +1,4 @@
 # Site Settings
-locale                   : "ja-JP"
-title                    : ""
+source: docs
+locale: "ja-JP"
+title: ""
