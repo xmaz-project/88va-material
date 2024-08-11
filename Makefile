@@ -2,3 +2,6 @@
 serve:
 	cd docs && bundle exec jekyll serve
 
+# make serve に必要なライブラリをインストール。環境で1回だけ実行が必要。
+install:
+	cd docs && bundle install
