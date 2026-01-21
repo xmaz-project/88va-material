@@ -46,7 +46,8 @@ CF to SASI/SCSI Converter は、一般的な98用SCSIハードディスクと同
 98用SASI I/Fは多くの場合フルピッチのアンフェノール50ピンコネクタを備えるため、接続には
 アンフェノールフルピッチ 50ピン - アンフェノールハーフピッチ50ピン のケーブルが必要だが、現行製品にはなさそう。
 現行品の範囲では次の組み合わせで代替できそう。
-- 変換コネクタ アンフェノールフルピッチ50ピン - ピンタイプ50ピン (例 [サンワサプライ AD-P50CK](https://www.sanwa.co.jp/product/syohin?code=AD-P50CK))
+- 変換コネクタ アンフェノールフルピッチ50ピン - ピンタイプ50ピン (例 [~~サンワサプライ AD-P50CK~~](https://www.sanwa.co.jp/product/syohin?code=AD-P50CK))
+  - ⇒ 販売終了
 - SCSIケーブル ピンタイプ50ピン - アンフェノールハーフピッチ50ピン (例 [サンワサプライ KB-SHP1K](https://www.sanwa.co.jp/product/syohin?code=KB-SHP1K) )
 
 
@@ -73,7 +74,6 @@ DIPSW2  1   2   3   4   5   6   7   8
         ID0 を割り当て
 
 ⇒ LUNは常に0/1の2つとなる仕様のため、以下の構成になる。
-  ただし、VAで認識されるのはLUN0のみか？
     ID0 LUN0: 40MByte
     ID0 LUN1: 40MByte
 ```
@@ -82,7 +82,29 @@ DIPSW2  1   2   3   4   5   6   7   8
 LHA-12ES
 
 ```
-★TODO
+SW1   1   2   3   4   5   6 
+      S   O   O   S   S   O    PC機種設定
+
+SW1   7   8   9
+      S   O   O    40MB x 1台
+      O   O   S    40MB x 2台
+      
+      S: ショート
+      O: オープン
+```
+
+なお、LHA-12ES の SW1 1～6の詳細は次のとおり。
+
+```
+SW1   1   2   3   4  
+      S   O   S   O   PC-9801M2
+      O   S   O   S   PC-9801初期型, PC-98XAmodel11/21
+      S   O   O   S   PC-9801その他, PC-286, PC-386
+
+SW1   5   6
+      O   S           PC-9801VX0/VX2/VX01/VX21, PC-98XLmodel1/2
+                      (ただし80286モードクロック8MHzで使用する場合のみ)
+      S   O           上記以外の場合 
 ```
 
 ### 接続確認
@@ -95,7 +117,3 @@ LHA-12ES
 ### その後の操作
 
 一般のSASIハードディスクと同様。⇒ [SASIハードディスク](../sasi_hdd/sasi_hdd.md)参照。
-
-## TODO
-
-* LHA-12ES のジャンパ マニュアルで確認。
