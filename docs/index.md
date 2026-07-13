@@ -5,6 +5,8 @@
 layout: home
 ---
 
+このサイトには、 [PC-88VA資料室](http://www.pc88.gr.jp/~va/) 以降に調査したりまとめたりした情報を置いています。
+
 # 目次
 
 ## PC-88VA
@@ -20,7 +22,4 @@ layout: home
 
 - [hootでPMDの楽曲データを演奏](hoot/pmd_on_hoot.md)
 
-## Links
-
-- [PC-88VA資料室](http://www.pc88.gr.jp/~va/)
 
