@@ -19,7 +19,7 @@ description: >
   NECのパソコンPC-88VAシリーズの情報について書き残しています。
 baseurl: "/88va-material" # the subpath of your site, e.g. /blog
 url: "https://xmaz-project.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
+twitter_username: shinra8801
 #github_username:  jekyll
 
 locale: ja_JP
